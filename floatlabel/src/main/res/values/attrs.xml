@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatLabelTextView">
+        <attr name="editText_hint" format="string"/>
+        <attr name="editText_color" format="color"/>
+        <attr name="hint_color" format="color"/>
+        <attr name="hint_text_size" format="dimension"/>
+        <attr name="editText_size" format="dimension"/>
+        <attr name="typeface" format="string"/>
+        <attr name="android:inputType"/>
+        <attr name="android:imeOptions"/>
+        <attr name="single_line" format="boolean"/>
+    </declare-styleable>
+</resources>

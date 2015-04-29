@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/textview_float"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:focusable="false"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/textview_main"
+        android:visibility="visible"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+</merge>
